@@ -1,0 +1,23 @@
+/* Paleta terrácea del escudo C.E.N. sobre Bootstrap 5.3 (claro / oscuro con data-bs-theme) */
+:root{--cafe:#2A0A06;--crema:#FBF09A;--tierra:#B5532F;--oliva:#6B7A3A;--bg:#F3E6B8;--panel:#FFF9D6;--txt:#2A0A06}
+[data-bs-theme=dark]{--bg:#1a0a06;--panel:#2c120c;--txt:#F3E6B8;--oliva:#8a9a4a}
+body{background:var(--bg);color:var(--txt);font-family:Georgia,'Palatino Linotype',serif}
+.navbar{background:var(--cafe)!important;border-bottom:5px solid var(--tierra)}
+.navbar .nav-link,.navbar-brand{color:var(--crema)!important}.navbar-brand img{height:48px}
+.navbar-toggler{border-color:var(--crema)}.navbar-toggler-icon{filter:invert(1)}
+.titulo{border-left:8px solid var(--tierra);padding-left:12px;margin-bottom:1rem}
+.card,.modal-content,.list-group-item,.table{--bs-card-bg:var(--panel);--bs-body-bg:var(--panel);background:var(--panel);color:var(--txt)}
+.table{--bs-table-bg:var(--panel);--bs-table-color:var(--txt)}.table thead th{background:var(--cafe);color:var(--crema)}
+.card-cen{display:block;background:var(--panel);border:3px solid var(--cafe);border-radius:50% 50% 14px 14px/28% 28% 14px 14px;padding:34px 16px 20px;text-align:center;color:var(--txt);text-decoration:none;font-size:1.25rem;box-shadow:5px 5px 0 var(--tierra)}
+[data-bs-theme=dark] .card-cen{border-color:var(--tierra)}
+.card-cen small{display:block;font-size:.85rem;color:var(--oliva)}.card-cen:hover{background:var(--crema);color:var(--cafe)}
+.btn-cen{background:var(--tierra);color:#fff;border:2px solid var(--cafe)}.btn-cen:hover{background:var(--oliva);color:#fff}
+.login{max-width:380px;background:var(--panel);border:3px solid var(--cafe);border-radius:16px;padding:24px;box-shadow:8px 8px 0 var(--tierra);margin-top:4vh}
+.login img{border-radius:50%}
+.horario{max-width:100%;max-height:230px;border:3px solid var(--cafe);border-radius:8px;cursor:zoom-in;display:block}
+.horario.full{position:fixed;inset:0;z-index:2000;width:100vw;height:100vh;max-height:none;object-fit:contain;background:#000;border:0;border-radius:0;cursor:zoom-out}
+.cal td{height:84px;vertical-align:top;width:14.28%;font-size:.85rem}.cal td.fin{opacity:.55}
+.ev{display:block;border-radius:4px;padding:1px 4px;margin-top:2px;color:#fff;font-size:.75rem}
+.sin_clases{background:#8b2b1a}.recreacion{background:var(--oliva)}.otro{background:var(--tierra)}
+.toast-cen{position:fixed;right:16px;bottom:16px;z-index:1500;background:var(--tierra);color:#fff;padding:14px 20px;border-radius:10px;text-decoration:none;box-shadow:0 4px 12px #0006}
+aside h3{color:var(--tierra);font-size:1.1rem}
